@@ -31,8 +31,8 @@ By the end of this guide, you'll have:
 pip install agent-docstrings
 
 # Agent Compass is configuration-based (no installation needed)
-# Agent Enforcer - Coming Q2 2025
-# Agent Viewport - Coming Q3 2025
+# Agent Enforcer - Coming July 2025
+# Agent Viewport - Coming summer 2025
 ```
 
 ## 📋 Agent Compass Setup
@@ -98,198 +98,6 @@ agent-docstrings src/ tests/ lib/utils.py
 agent-docstrings src/ --verbose
 ```
 
-### Integration with Development Workflow
-
-#### Pre-commit Hook
-
-Add to `.pre-commit-config.yaml`:
-
-```yaml
-repos:
-    - repo: local
-      hooks:
-          - id: agent-docstrings
-            name: Generate docstrings
-            entry: agent-docstrings
-            language: system
-            files: \.(py|java|kt|go|ps1|psm1|pas|js|jsx|ts|tsx|cs|cpp|cxx|cc|hpp|h|c)$
-            pass_filenames: false
-            args: [src/]
-```
-
-#### VS Code/Cursor Integration
-
-Add to your project's tasks.json:
-
-```json
-{
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "Update Docstrings",
-            "type": "shell",
-            "command": "agent-docstrings",
-            "args": ["src/"],
-            "group": "build",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared"
-            }
-        }
-    ]
-}
-```
-
-### Configuration Options
-
-#### Ignore Files (`.agent-docstrings-ignore`)
-
-```
-# Ignore test files
-**/test_*.py
-**/tests/
-
-# Ignore generated files
-**/generated/
-**/__pycache__/
-```
-
-#### Include Only (`.agent-docstrings-include`)
-
-```
-# Only process main source code
-src/**/*.py
-lib/**/*.py
-agent_docstrings/**/*.py
-```
-
-## 🔧 Complete Setup
-
-### 1. Project Structure Preparation
-
-```bash
-# Create a new project or navigate to existing one
-mkdir my-ai-project
-cd my-ai-project
-
-# Initialize git if not already done
-git init
-
-# Create basic structure
-mkdir src tests docs
-```
-
-### 2. Agent Compass Configuration
-
-Follow the [Agent Compass Setup](#agent-compass-setup) above.
-
-### 3. Agent Docstrings Integration
-
-```bash
-# Install and run initial scan
-pip install agent-docstrings
-agent-docstrings src/ --verbose
-
-# Set up pre-commit hooks
-pip install pre-commit
-pre-commit install
-```
-
-### 4. Development Environment Configuration
-
-#### VS Code/Cursor Settings
-
-Add to `.vscode/settings.json`:
-
-```json
-{
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
-    "python.formatting.provider": "black",
-    "editor.formatOnSave": true,
-    "files.exclude": {
-        "**/__pycache__": true,
-        "**/*.pyc": true
-    }
-}
-```
-
-#### Git Configuration
-
-Add to `.gitignore`:
-
-```
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-```
-
-### 5. Testing the Setup
-
-Create a test file `src/calculator.py`:
-
-```python
-def add(a, b):
-    return a + b
-
-def multiply(a, b):
-    return a * b
-
-class Calculator:
-    def __init__(self):
-        self.history = []
-
-    def calculate(self, operation, a, b):
-        if operation == "add":
-            result = add(a, b)
-        elif operation == "multiply":
-            result = multiply(a, b)
-        else:
-            raise ValueError("Unknown operation")
-
-        self.history.append((operation, a, b, result))
-        return result
-```
-
-Run Agent Docstrings:
-
-```bash
-agent-docstrings src/
-```
-
-The file should now have a table of contents at the top showing the structure.
-
 ## 🤝 Integration Patterns
 
 ### Pattern 1: AI-First Development
@@ -315,13 +123,13 @@ The file should now have a table of contents at the top showing the structure.
 
 ## 🔮 Future Tools Preview
 
-### Agent Enforcer (Coming Q2 2025)
+### Agent Enforcer (Coming July 2025)
 
 -   **Purpose**: Automated code quality verification
 -   **Integration**: Works with Agent Compass rules
 -   **Setup**: Will integrate with existing linting workflows
 
-### Agent Viewport (Coming Q3 2025)
+### Agent Viewport (Coming summer 2025)
 
 -   **Purpose**: UI markup understanding for AI
 -   **Integration**: Complements Agent Docstrings for UI code

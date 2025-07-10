@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- **head:** text
+-   **head:** text
 
 ## [1.0.0] - 2025-01-XX
 
@@ -36,24 +36,3 @@ For detailed changelogs of individual tools, please refer to their respective re
 -   [Agent Docstrings Changelog](https://github.com/Artemonim/AgentDocstrings/blob/main/CHANGELOG.md)
 -   Agent Enforcer Changelog (coming soon)
 -   Agent Viewport Changelog (coming soon)
-
----
-
-## Release Notes Format
-
-Each release will include:
-
--   **Version number** following semantic versioning
--   **Release date**
--   **Summary** of major changes
--   **Tool status updates**
--   **Breaking changes** (if any)
--   **Migration guide** (if needed)
-
-## Support
-
-For questions about releases or changelogs:
-
--   Check individual tool repositories for specific changes
--   Open an issue in the relevant repository
--   Join discussions in the community channels

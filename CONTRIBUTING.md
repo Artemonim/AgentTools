@@ -21,8 +21,8 @@ This ecosystem consists of multiple repositories. Choose the appropriate one for
 - **[Agent Tools Hub](https://github.com/Artemonim/AgentTools)** (this repo) - Ecosystem documentation, roadmap, and general discussions
 - **[Agent Compass](https://github.com/Artemonim/AgentCompass)** - AI assistant rules and guidelines
 - **[Agent Docstrings](https://github.com/Artemonim/AgentDocstrings)** - Code structure documentation tool
-- **Agent Enforcer** - Code quality verification (coming soon)
-- **Agent Viewport** - UI markup understanding (coming soon)
+- **Agent Enforcer** - Code quality verification (Coming July 2025)
+- **Agent Viewport** - UI markup understanding (Coming summer 2025)
 
 ## 🚀 Getting Started
 
@@ -192,42 +192,13 @@ We are committed to providing a welcoming and inclusive environment. Please:
 - **GitHub Discussions** - General questions and community chat
 - **Pull Requests** - Code review and collaboration
 
-## 🎉 Recognition
-
-Contributors will be recognized in several ways:
-
-- **Contributors list** in repository README
-- **Changelog mentions** for significant contributions
-- **Special badges** for long-term contributors
-- **Shout-outs** in release notes
-
 ## 📚 Resources
 
 ### Documentation
 - [Agent Compass Documentation](https://github.com/Artemonim/AgentCompass)
 - [Agent Docstrings Documentation](https://github.com/Artemonim/AgentDocstrings)
 
-### Development Tools
-- [Black](https://black.readthedocs.io/) - Python code formatting
-- [MyPy](https://mypy.readthedocs.io/) - Python type checking
-- [Pytest](https://docs.pytest.org/) - Python testing framework
-
 ### Learning Resources
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [Semantic Versioning](https://semver.org/)
-- [MIT License](https://opensource.org/licenses/MIT)
-
-## ❓ Questions?
-
-If you have questions about contributing:
-
-1. Check the FAQ in the relevant repository
-2. Search existing issues and discussions
-3. Create a new discussion in the appropriate repository
-4. Reach out to maintainers if needed
-
-Thank you for helping make Artemonim's Agent Tools better for everyone!
-
----
-
-**Happy Contributing! 🚀** 
+- [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
