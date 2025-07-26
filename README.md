@@ -43,9 +43,9 @@ Automatic code structure documentation that helps AI agents understand your code
 
 **Installation:** `pip install agent-docstrings`
 
-### 🔧 Agent Enforcer
+### 🔧 [Agent Enforcer](https://github.com/Artemonim/AgentEnforcer)
 
-**Status: 🟡 In Development**
+**Status: 🟢 Open Beta**
 
 Automated code quality verification and enforcement tool. Ensures AI-generated code meets your project's standards and best practices.
 
@@ -53,8 +53,6 @@ Automated code quality verification and enforcement tool. Ensures AI-generated c
 -   **Custom rule definitions** for project-specific requirements
 -   **Concise reporting** with actionable suggestions
 -   **Extensible plugin system** for custom checks
-
-**Expected Release:** July 2025
 
 ### 🖼️ Agent Viewport
 
