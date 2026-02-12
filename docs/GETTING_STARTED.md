@@ -7,8 +7,8 @@ Welcome to the Artemonim's Agent Tools ecosystem! This guide will help you get u
 By the end of this guide, you'll have:
 
 -   ✅ Set up Agent Compass for consistent AI behavior
--   ✅ Installed Agent Docstrings for code structure documentation
 -   ✅ Configured your development environment for optimal AI assistance
+-   ✅ Understood how Agent Enforcer 2 fits into a robust local CI workflow
 -   ✅ Understanding of how all tools work together
 
 ## 🚀 Quick Start (5 minutes)
@@ -27,12 +27,9 @@ By the end of this guide, you'll have:
 ### Step 2: Install Available Tools
 
 ```bash
-# Install Agent Docstrings
-pip install agent-docstrings
-
 # Agent Compass is configuration-based (no installation needed)
-# Agent Enforcer - Coming July 2025
-# Agent Viewport - Coming summer 2025
+# Agent Enforcer 2 - Available (see repo)
+# Agent Viewport - On Hold (future development uncertain)
 ```
 
 ## 📋 Agent Compass Setup
@@ -74,6 +71,8 @@ You should see:
 ## 📝 Agent Docstrings Setup
 
 Agent Docstrings helps AI agents understand your codebase structure instantly.
+
+> This project is archived and is often unnecessary with modern LLMs in Cursor IDE. Consider it an optional, legacy workflow component.
 
 ### Installation
 
@@ -121,19 +120,19 @@ agent-docstrings src/ --verbose
 3. **CI/CD integration** - Automated quality checks
 4. **Regular updates** - Keep tools and configurations current
 
-## 🔮 Future Tools Preview
+## 🧩 Other Tools in the Ecosystem
 
-### Agent Enforcer (Coming July 2025)
+### Agent Enforcer 2 (Available)
 
--   **Purpose**: Automated code quality verification
+-   **Purpose**: Local CI blueprint and reference architecture
 -   **Integration**: Works with Agent Compass rules
--   **Setup**: Will integrate with existing linting workflows
+-   **Setup**: Follow the repository docs and adapt the patterns to your stack
 
-### Agent Viewport (Coming summer 2025)
+### Agent Viewport (On Hold / Uncertain)
 
 -   **Purpose**: UI markup understanding for AI
 -   **Integration**: Complements Agent Docstrings for UI code
--   **Setup**: Will support major UI frameworks
+-   **Setup**: Not started as of February 2026
 
 ## 🐛 Troubleshooting
 
@@ -188,4 +187,4 @@ agent-docstrings src/ --verbose
 
 **Happy coding with AI! 🚀**
 
-_If you find this guide helpful, consider [supporting the project](https://boosty.to/artemonim) or sharing it with your team._
+_If you find this guide helpful, consider starring the repositories you use and supporting on [Sponsr](https://sponsr.ru/artemonim/)._

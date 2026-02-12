@@ -9,7 +9,7 @@ A clear and concise description of what this pull request accomplishes.
 
 -   [ ] Agent Compass
 -   [ ] Agent Docstrings
--   [ ] Agent Enforcer
+-   [ ] Agent Enforcer 2
 -   [ ] Agent Viewport
 -   [ ] General/Ecosystem
 -   [ ] Documentation

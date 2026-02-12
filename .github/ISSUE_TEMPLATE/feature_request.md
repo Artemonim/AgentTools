@@ -12,7 +12,7 @@ assignees: ''
 ### 🔧 Which Tool?
 - [ ] Agent Compass
 - [ ] Agent Docstrings
-- [ ] Agent Enforcer
+- [ ] Agent Enforcer 2
 - [ ] Agent Viewport
 - [ ] New Tool Idea
 - [ ] General/Ecosystem

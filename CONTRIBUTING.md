@@ -20,9 +20,9 @@ This ecosystem consists of multiple repositories. Choose the appropriate one for
 
 - **[Agent Tools Hub](https://github.com/Artemonim/AgentTools)** (this repo) - Ecosystem documentation, roadmap, and general discussions
 - **[Agent Compass](https://github.com/Artemonim/AgentCompass)** - AI assistant rules and guidelines
-- **[Agent Docstrings](https://github.com/Artemonim/AgentDocstrings)** - Code structure documentation tool
-- **Agent Enforcer** - Code quality verification (Coming July 2025)
-- **Agent Viewport** - UI markup understanding (Coming summer 2025)
+- **[Agent Docstrings](https://github.com/Artemonim/AgentDocstrings)** - Code structure documentation tool (Archived)
+- **[Agent Enforcer 2](https://github.com/Artemonim/AgentEnforcer2)** - Local CI blueprint and reference architecture
+- **Agent Viewport** - UI markup understanding (On Hold / Uncertain)
 
 ## 🚀 Getting Started
 

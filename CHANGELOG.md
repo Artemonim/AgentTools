@@ -34,5 +34,5 @@ For detailed changelogs of individual tools, please refer to their respective re
 
 -   [Agent Compass Changelog](https://github.com/Artemonim/AgentCompass/blob/main/CHANGELOG.md)
 -   [Agent Docstrings Changelog](https://github.com/Artemonim/AgentDocstrings/blob/main/CHANGELOG.md)
--   Agent Enforcer Changelog (coming soon)
+-   [Agent Enforcer 2 Repository](https://github.com/Artemonim/AgentEnforcer2)
 -   Agent Viewport Changelog (coming soon)

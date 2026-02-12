@@ -12,7 +12,7 @@ assignees: ""
 
 -   [ ] Agent Compass
 -   [ ] Agent Docstrings
--   [ ] Agent Enforcer
+-   [ ] Agent Enforcer 2
 -   [ ] Agent Viewport
 -   [ ] General/Ecosystem
 -   [ ] Getting Started

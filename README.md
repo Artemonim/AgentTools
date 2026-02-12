@@ -29,11 +29,11 @@ A comprehensive policy framework for AI-assisted development in Cursor IDE. Tran
 
 ### 📝 [Agent Docstrings](https://github.com/Artemonim/AgentDocstrings)
 
-**Status: 🟢 Partiarly-Available**
+**Status: 🔴 Archived**
 
 Automatic code structure documentation that helps AI agents understand your codebase instantly. Generates "Table of Contents" summaries at the top of source files.
 
-> The current version has some issues with some supported languages, so a major overhaul is planned for version 2.0. That said, the tool can already enhance your workflow with AI Agents in your personal projects. And of course, we’d greatly appreciate any bug reports you send our way.
+> This project is archived because, with modern LLMs and Cursor IDE, it provides little practical value for most workflows. The last released version remains available for legacy setups.
 
 -   **Multi-language support** (Python, Java, Kotlin, Go, C/C++, C#, JavaScript, TypeScript, PowerShell, Delphi)
 -   **Smart AST parsing** for accurate code analysis
@@ -43,22 +43,21 @@ Automatic code structure documentation that helps AI agents understand your code
 
 **Installation:** `pip install agent-docstrings`
 
-### 🔧 Agent Enforcer
+### 🔧 [Agent Enforcer 2](https://github.com/Artemonim/AgentEnforcer2)
 
-**Status: 🟡 In Development**
+**Status: 🟢 Available**
 
-Automated code quality verification and enforcement tool. Ensures AI-generated code meets your project's standards and best practices.
+Local CI blueprint and reference architecture for building robust, language-agnostic code quality pipelines in your projects.
 
--   **Multi-language linting** and style checking
--   **Custom rule definitions** for project-specific requirements
--   **Concise reporting** with actionable suggestions
--   **Extensible plugin system** for custom checks
-
-**Expected Release:** July 2025
+-   **Three-tier architecture**: thin entrypoint → orchestrator → language-specific tooling
+-   **Stage-based pipeline**: fmt/lint/typecheck/tests/coverage/security
+-   **Caching and idempotency**: skip redundant work safely
+-   **Hang detection** and observable execution patterns
+-   **Unified reporting** with structured outputs
 
 ### 🖼️ Agent Viewport
 
-**Status: 🟡 Planned**
+**Status: ⚪ On Hold (Uncertain)**
 
 UI markup understanding tool for AI-assisted-developers. Helps AI agents comprehend and work with user interface code across different frameworks.
 
@@ -66,7 +65,7 @@ UI markup understanding tool for AI-assisted-developers. Helps AI agents compreh
 -   **Cross-platform support**
 -   **AI-friendly structure analysis**
 
-**Expected Release:** summer 2025
+> Not started as of February 2026. Future development is uncertain.
 
 ## 🎯 Why This Ecosystem?
 
@@ -84,8 +83,8 @@ AI coding assistants are powerful but often lack context about:
 Each tool in the Artemonim's Agent Tools ecosystem addresses a specific aspect of this challenge:
 
 1. **Agent Compass** → Establishes consistent behavior and standards
-2. **Agent Docstrings** → Provides instant code structure understanding
-3. **Agent Enforcer** → Ensures quality and compliance
+2. **Agent Docstrings (Archived)** → Optional file-level structure summaries
+3. **Agent Enforcer 2** → Provides a local CI blueprint for quality and compliance
 4. **Agent Viewport** → Enables UI-aware development
 
 Together, they create a comprehensive framework for professional AI-assisted development.
@@ -94,10 +93,8 @@ Together, they create a comprehensive framework for professional AI-assisted dev
 
 ### Quick Start Guide
 
-1. **Start with Agent Compass** - Set up your AI assistant's behavior patterns
-2. **Add Agent Docstrings** - Generate code structure documentation
-3. **Monitor with Agent Enforcer** - Ensure code quality (when available)
-4. **Enhance with Agent Viewport** - Add UI awareness (when available)
+1. **Start with Agent Compass** - Set up your&AI behavior patterns
+2. **Adopt Agent Enforcer 2** - Build a robust local CI pipeline
 
 ### Integration Examples
 
@@ -106,20 +103,17 @@ Together, they create a comprehensive framework for professional AI-assisted dev
 pip install agent-docstrings
 
 # Add Agent Compass rules to your IDE
-# Configure Agent Enforcer (Coming July 2025)
+# Adopt Agent Enforcer 2 blueprint (see repo)
 ```
 
 ## Support the Project
 
-Agent Compass is an independent open-source project. If you find this useful and want to support my projects, your help would be greatly appreciated.
+Artemonim's Agent Tools is an independent open-source ecosystem. If you find it useful and want to support my work, thank you!
 
-Here are a few ways you can contribute:
+You can support my work in two ways:
 
--   **Give a Star:** The simplest way to show your support is to star the project on [GitHub](https://github.com/Artemonim/AgentCompass)! It increases the project's visibility.
--   **Support My Work:** Your financial contribution helps me dedicate more time to improving this tool and creating other open-source projects. On my [**Boosty page**](https://boosty.to/artemonim), you can:
-    -   Make a **one-time donation** to thank me for this specific project.
-    -   Become a **monthly supporter** to help all of my creative endeavors.
--   **Try a Recommended Tool:** This project was inspired by my work with LLMs. If you're looking for a great service to work with multiple neural networks, check out [**Syntx AI**](https://t.me/syntxaibot?start=aff_157453205). Using my referral link is another way to support my work at no extra cost to you.
+-   **Give a Star:** Star the repositories you use on GitHub.
+-   **Support on Sponsr:** Support me on [Sponsr](https://sponsr.ru/artemonim/).
 
 Thank you for your support!
 
