@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   **head:** text
 
+## [1.1.0] - 2026-02-10
+
+### Changed
+
+-   **Ecosystem References**: Replaced Agent Enforcer mentions with **Agent Enforcer 2** in hub documentation and issue/PR templates
+-   **Tool Statuses**: Updated statuses to reflect current state in February 2026 (**Agent Docstrings** archived, **Agent Viewport** on hold/uncertain)
+-   **Support Links**: Standardized support options to GitHub Stars + [Sponsr](https://sponsr.ru/artemonim/)
+-   **Funding Metadata**: Updated `.github/FUNDING.yml` to Sponsr URL
+
 ## [1.0.0] - 2025-01-XX
 
 ### Added
